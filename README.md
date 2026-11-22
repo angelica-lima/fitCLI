@@ -10,7 +10,6 @@ O projeto foi desenvolvido no âmbito de um trabalho académico e permite pesqui
 - **Search:** pesquisa exercícios por músculo ou categoria.
 - **Type:** classifica um exercício como `compound`, `isolated`, `cardio` ou `other`.
 - **Equipment:** conta as menções a diferentes equipamentos nas descrições dos exercícios de uma categoria.
-- **Workout:** cria uma lista de exercícios a partir de músculos ou categorias, com opção de filtrar pelo tipo de esforço, limitar resultados e exportar para CSV.
 
 ## Tecnologias utilizadas
 
@@ -116,12 +115,6 @@ python wger.py workout --musculos biceps --tipo compound --n 3
 ```
 
 Os tipos aceites são `compound`, `isolated` e `any`.
-
-Para exportar os resultados para um ficheiro CSV:
-
-```bash
-python wger.py workout --musculos biceps --tipo any --n 3 --csv-file treino.csv
-```
 
 ## API utilizada
 
